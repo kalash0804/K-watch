@@ -107,6 +107,10 @@ background-color: rgb(210, 207, 207);
     color: var(--white);
     transform: scale(1.1);
 }
+.secondary-btn a{
+    color: white;
+    text-decoration: none;
+}
 .primary-btn:hover , .section-two-btn:hover, .section-four-btn:hover{
     transform: scale(1.1);
     cursor: pointer;
@@ -250,11 +254,13 @@ background-color: rgb(210, 207, 207);
     color: var(--light-peach);
     font-family: 'Allison', cursive;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .section-four-heading{
     font-size: 4rem;
     color: var(--white);
     margin-bottom: 1rem;
+    text-decoration: none;
 }
 .section-four-btn{
     font-size: 1.1rem;
@@ -263,6 +269,11 @@ background-color: rgb(210, 207, 207);
     border: none;
     transform: transform .5s ease;
 }
+.section-four-btn a{
+    color: white;
+    text-decoration: none;
+}
+
 .section-four-container::before{
     content: "";
     background: rgba(0,0,0,0.544);
