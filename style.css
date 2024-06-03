@@ -332,7 +332,7 @@ background-color: rgb(210, 207, 207);
     
 }
 .grid-card::after{
-    content: "Rado";
+    content: attr(collection);
     position: absolute;
     text-transform: uppercase;
     background: var(--light-peach);
